@@ -1,0 +1,23 @@
+
+DEPENDENCIES
+
+yum install sqlite sqlite-devel
+
+yum install python-sqlite
+yum install python-pip
+
+pip install pyCLI
+pip install pyserial
+
+
+To install web.py, download:
+
+	http://webpy.org/static/web.py-0.37.tar.gz
+	
+	python setup.py install
+
+Note: on some unix like systems you may need to switch to root or run:
+
+	sudo python setup.py install
+
+
